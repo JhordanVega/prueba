@@ -9,7 +9,7 @@ if (!process || process.env.NODE_ENV !== "test") {
   Vue.use(Router);
 }
 
-const baseRoute = process.env.VUE_APP_BASE_NAME_ROUTE;
+//const baseRoute = process.env.VUE_APP_BASE_NAME_ROUTE;
 
 const routes = [
   {
@@ -36,7 +36,8 @@ const routes = [
 
 const router = new Router({
   mode: 'history',
-  base: `/${baseRoute}/`,
+  //base: `/${baseRoute}/`,
+  base: '/app-users/',
   routes
 })
 

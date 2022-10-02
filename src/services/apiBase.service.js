@@ -1,9 +1,10 @@
 import axios from "axios";
-import DOMAIN_WEB from "@/utils/domainWeb";
+//import DOMAIN_WEB from "@/utils/domainWeb";
 
 const ApiBaseService = axios.create({
   //   baseURL: process.env.VUE_APP_API_BASE,
-  baseURL: DOMAIN_WEB,
+  //baseURL: DOMAIN_WEB,
+  baseURL: 'https://randomuser.me/',
   headers: {
     "Content-type": "application/json",
   },
