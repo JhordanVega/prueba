@@ -28,16 +28,3 @@ ApiBaseService.interceptors.request.use(function (config) {
 });
 
 export default ApiBaseService;
-
-//para obtener items
-
-//getPaginate (obtiene un listado paginado)
-//getFind     (obtiene un listado sin paginado, usado para autocompletes)
-//getAll      (obtiene un listado sin pagindado, no soporta automplete, ideal para selects)
-
-//Variaciones
-
-//getFindByFact (obtiene un listado sin pagindado, para autocomplete por hecho)
-//getFindReduced (obtiene un listado sin paginado reducido, para autocomplete osea {id:'45',nombre:"juan"})
-//getAllByFact (obtiene un listado sin pagindado por hecho)
-//getAllReduced (obtiene un listado sin paginado reducido, osea {id:'45',nombre:"juan"})
